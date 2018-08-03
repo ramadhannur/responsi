@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: ramaTCC-nginx-php7.2
+    image: rama-nginx-php7.2
     build: .
     restart: always
     volumes:
@@ -17,7 +17,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_ROOT_PASSWORD: 123456
     ports:
       - "7306:3306"
     networks:
