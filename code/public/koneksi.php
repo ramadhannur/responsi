@@ -1,8 +1,8 @@
 <?php
   // buat koneksi dengan database mysql
-  $host = "localhost";
+  $host = "192.168.43.48:7306";
   $user = "root";
-  $pass = "";
+  $pass = "123456";
   $name = "mahasiswa";
   $link = mysqli_connect($host,$user,$pass,$name);
   //periksa koneksi, tampilkan pesan kesalahan jika gagal
